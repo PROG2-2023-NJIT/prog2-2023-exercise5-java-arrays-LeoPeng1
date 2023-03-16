@@ -43,7 +43,7 @@ public class Main {
 
         System.out.println(fb);*/
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter the number of the total number of tickets you want to reserve. ");
+        System.out.println("Please enter the number of the total number of tickets you want to reserve.");
         int number = sc.nextInt();
         FlightBooking flightBooking =new FlightBooking(number);
         flightBooking.reserveTickets(number);
